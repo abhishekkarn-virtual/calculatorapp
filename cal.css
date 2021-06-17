@@ -1,0 +1,83 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.calc {
+    background-color: grey;
+    height: 34em;
+    width: 20em;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 15px;
+     transition:0.3s ease;
+}
+
+.screen {
+    background-color: #fff;
+    height: 4rem;
+    width: 90%;
+    margin: auto;
+    margin-top: 2rem;
+    border-radius: 15px;
+     transition:0.3s ease;
+
+}
+
+.operations {
+    background-color: grey;
+    height: 70%;
+    width: 90%;
+    margin: 2.5rem auto auto auto;
+    margin-left: 1.5rem;
+}
+
+.numbers {
+    background-color: #fff;
+    height: 4rem;
+    width: 4rem;
+    display: inline-block;
+    border-radius: 50%;
+    transition:0.3s ease;
+    margin:0.1rem;
+    cursor: pointer;
+}
+
+.numbers:focus{
+    background-color: indigo;
+}
+
+.screen p{
+    font-size: 3.5rem;
+    letter-spacing: 0.15rem;
+    overflow: hidden;
+}
+.numbers p{
+    font-size: 3.5rem;
+    letter-spacing: 0.15rem;
+    overflow: hidden;
+    text-align: center
+}
+
+.numbers.equals{
+    background-color: tomato;
+} 
+
+.delete{
+    width:7rem;
+    height: 4rem;
+    border-radius: 40px;
+    margin-top: 7px;;
+}
+
+.clear {
+    width:7rem;
+    border-radius: 40px;
+    height: 4rem;
+}
+
+.reduce{
+  font-size: 2.5rem;  
+}
